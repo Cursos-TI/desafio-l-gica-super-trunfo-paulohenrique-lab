@@ -8,45 +8,67 @@
 int main() {
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
-    char Estado [30];
-    char Codigo da carta [10];
-    char Nome da Cidade [30];
-    int Populacao;
-    float Area em km;
-    float PIB;
-    int Numero de pontos turisticos;
+    char estado [30];
+    char codigo [50];
+    char cidade [30];
+    int populacao;
+    float area;
+    float pib;
+    int turisticos;
     // Cadastro das Cartas:
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
     // utilizando a função scanf para capturar as entradas.
     // utilize o código do primeiro desafio
+    printf("Desafio supertrunfo\n");
+    
+    printf("Digite o nome do Estado: \n");
+    scanf("%s", estado);
+
+    printf("Digite o Código: \n");
+    scanf("%s", codigo);
+    
+    printf("Digite a Cidade: \n");
+    scanf("%s", cidade);
+
+    printf("Digite a População: \n");
+    scanf("%d", &populacao);
+
+    printf("Digite a Área: \n");
+    scanf("%f", &area);
+
+    printf("Digite o PIB: \n");
+    scanf("%f", &pib);
+
+    printf("Digite pontos Turísticos: \n");
+    scanf("%d", &turisticos);
+
+    printf("Digite o nome do Estado: \n");
+    scanf("%s", estado);
+
+    printf("Digite o Código: \n");
+    scanf("%s", codigo);
+    
+    printf("Digite a Cidade: \n");
+    scanf("%s", cidade);
+
+    printf("Digite a População: \n");
+    scanf("%d", &populacao);
+
+    printf("Digite a Área: \n");
+    scanf("%f", &area);
+
+    printf("Digite o PIB: \n");
+    scanf("%f", &pib);
+
+    printf("Digite pontos Turísticos: \n");
+    scanf("%d", &turisticos);
 
     // Exemplo:
     // printf("Digite o código da cidade: ");
     // scanf("%s", codigo);
     // 
     // (Repita para cada propriedade)
-    printf("Desafio SuperTrunfo"\n);
-
-    printf("Digite o nome o Estado: \n");
-    scanf("%s", Estado);
-
-    printf("Digite o Código da Carta: \n");
-    scanf("%s", Codigo da carta);
-
-    printf("Digite o Nome da Cidade: \n");
-    scanf("%s", Nome da Cidade);
-
-    printf("Digite a população: \n");
-    scanf("%d", &Populacao);
-
-    printf("Digite a Área em km: \n");
-    scanf("%f", &Area em km);
-
-    printf("Digite o PIB: \n");
-    scanf("%f", &PIB);
-
-    printf("Digite quantidade de pontos turísticos: \n");
-    scanf("%d", &Numero de pontos turisticos);
+    
 
     // Comparação de Cartas:
     // Desenvolva a lógica de comparação entre duas cartas.
