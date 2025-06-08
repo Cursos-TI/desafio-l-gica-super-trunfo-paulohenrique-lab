@@ -15,12 +15,16 @@ int main() {
     float area;
     float pib;
     int turisticos;
+    float densidade;
+    float capita;
+    float divisao
     // Cadastro das Cartas:
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
     // utilizando a função scanf para capturar as entradas.
     // utilize o código do primeiro desafio
-    printf("Desafio supertrunfo\n");
-    
+
+
+    //Ceará; 1; Fortaleza; 1.000.000; area 1521.11 km; 100.000; 50;
     printf("Digite o nome do Estado: \n");
     scanf("%s", estado);
 
@@ -41,7 +45,11 @@ int main() {
 
     printf("Digite pontos Turísticos: \n");
     scanf("%d", &turisticos);
+    
+    divisao =  populacao / area;
+    printf("Densidade populacional: %.2f", divisao);
 
+    //Bahia; 2; Salvador; 1.000.000; area 1521.11 km; 100.000; 40;
     printf("Digite o nome do Estado: \n");
     scanf("%s", estado);
 
@@ -62,6 +70,7 @@ int main() {
 
     printf("Digite pontos Turísticos: \n");
     scanf("%d", &turisticos);
+    printf("Densidade populacional: %.2f", divisao);
 
     // Exemplo:
     // printf("Digite o código da cidade: ");
