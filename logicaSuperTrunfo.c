@@ -6,10 +6,16 @@
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
+    printf("Desafio SuperTrunfo"\n);
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
-
-    
+    char Estado [30];
+    char Código da carta [10];
+    char Nome da Cidade [30];
+    int População;
+    float Área em km;
+    float PIB;
+    int Número de pontos turísticos;
     // Cadastro das Cartas:
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
     // utilizando a função scanf para capturar as entradas.
@@ -20,6 +26,26 @@ int main() {
     // scanf("%s", codigo);
     // 
     // (Repita para cada propriedade)
+    printf("Digite o nome o Estado: \n");
+    scanf("%s", Estado);
+
+    printf("Digite o Código da Carta: \n");
+    scanf("%s", Código da carta);
+
+    printf("Digite o Nome da Cidade: \n");
+    scanf("%s", Nome da Cidade);
+
+    printf("Digite a população: \n");
+    scanf("%d", &População);
+
+    printf("Digite a Área em km: \n");
+    scanf("%f", &Área em km);
+
+    printf("Digite o PIB: \n");
+    scanf("%f", &PIB);
+
+    printf("Digite quantidade de pontos turísticos: \n");
+    scanf("%d", &Número de pontos turísticos);
 
     // Comparação de Cartas:
     // Desenvolva a lógica de comparação entre duas cartas.
