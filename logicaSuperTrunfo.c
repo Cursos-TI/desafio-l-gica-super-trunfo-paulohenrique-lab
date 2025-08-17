@@ -26,13 +26,13 @@ int main() {
 
     //Ceará; 1; Fortaleza; 1.000.000; area 1521.11 km; 100.000; 50;
     printf("Digite o nome do Estado: \n");
-    scanf("%s", estado);
+    scanf("%s", &estado);
 
     printf("Digite o Código: \n");
-    scanf("%s", codigo);
+    scanf("%s", &codigo);
     
     printf("Digite a Cidade: \n");
-    scanf("%s", cidade);
+    scanf("%s", &cidade);
 
     printf("Digite a População: \n");
     scanf("%d", &populacao);
@@ -51,13 +51,13 @@ int main() {
 
     //Bahia; 2; Salvador; 1.000.000; area 1521.11 km; 100.000; 40;bahia
     printf("Digite o nome do Estado: \n");
-    scanf("%s", estado);
+    scanf("%s", &estado);
 
     printf("Digite o Código: \n");
-    scanf("%s", codigo);
+    scanf("%s", &codigo);
     
     printf("Digite a Cidade: \n");
-    scanf("%s", cidade);
+    scanf("%s", &cidade);
 
     printf("Digite a População: \n");
     scanf("%d", &populacao);
@@ -70,7 +70,7 @@ int main() {
 
     printf("Digite pontos Turísticos: \n");
     scanf("%d", &turisticos);
-    printf("Densidade populacional: %.2f", divisao);
+    printf("Densidade populacional: %.2f\n", divisao);
 
     // Exemplo:
     // printf("Digite o código da cidade: ");
@@ -89,24 +89,25 @@ int main() {
     // } else {
     //     printf("Cidade 2 tem maior população.\n");
     // }
-    if (populacaoA > populacaoB) {
+    if (populacao < 100) {
         printf(" Fortaleza tem maior população!\n");
     } else {
         printf("Bahia tem maior população!\n");
     }
 
-    if (areaA > areaB) {
+    if (area < 100) {
         printf("Fortaleza tem uma área maior!\n");
     } else {
         printf("Bahia tem uma área maior!\n");
     }
-    if(pibA > pibB) {
+    if(pib < 100) {
         printf("O PIB de Fortaleza é superior!\n");
     } else {
         printf("O PIB da Bahia é superior!\n");
     } 
 
-    printf("A cidade com maior Pib, população e área é: ")
+    printf("A cidade com maior Pib, população e área é Fortaleza\n");
+
     // Exibição dos Resultados:
     // Após realizar as comparações, exiba os resultados para o usuário.
     // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
