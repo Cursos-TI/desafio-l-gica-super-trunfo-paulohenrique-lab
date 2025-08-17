@@ -89,7 +89,24 @@ int main() {
     // } else {
     //     printf("Cidade 2 tem maior população.\n");
     // }
+    if (populacaoA > populacaoB) {
+        printf(" Fortaleza tem maior população!\n");
+    } else {
+        printf("Bahia tem maior população!\n");
+    }
 
+    if (areaA > areaB) {
+        printf("Fortaleza tem uma área maior!\n");
+    } else {
+        printf("Bahia tem uma área maior!\n");
+    }
+    if(pibA > pibB) {
+        printf("O PIB de Fortaleza é superior!\n");
+    } else {
+        printf("O PIB da Bahia é superior!\n");
+    } 
+
+    printf("A cidade com maior Pib, população e área é: ")
     // Exibição dos Resultados:
     // Após realizar as comparações, exiba os resultados para o usuário.
     // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
